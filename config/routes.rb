@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+  # get 'stpre/index'
+  root 'stpre#index', as: 'stpre_index'
+
   resources :keduas
   resources :products
   get 'say/hello'
